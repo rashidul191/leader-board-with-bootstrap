@@ -1,0 +1,142 @@
+/* --------------------------
+    Common Style Start 
+----------------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+/* --------------------------
+    Common Style End 
+----------------------------*/
+
+/* --------------------------
+    Navbar Section Style Start 
+----------------------------*/
+nav.navbar-light .nav-item a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar img.nav-logo {
+  width: 40px;
+}
+/* --------------------------
+    Navbar Section Style End 
+----------------------------*/
+
+/* --------------------------
+    Header Section Style Start 
+----------------------------*/
+header {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 150px;
+  padding: 20px;
+}
+.main-section img.player-img {
+  width: 70px;
+  padding-right: 20px;
+}
+.main-section img.blog-img {
+  width: 177px;
+  height: 117px;
+}
+.main-section span {
+  color: blue;
+}
+
+/* --------------------------
+    Header Section Style End 
+----------------------------*/
+
+/* ------------------------------
+    Courses Section Style Start
+--------------------------------*/
+.latest-courses {
+  background-color: white;
+  margin: 10px 150px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.latest-courses img.course-img {
+  width: 224px;
+  height: 104px;
+}
+.social-icon span i {
+  color: orange;
+}
+.course-duration {
+  padding: 4px 11px;
+  background-color: #ffe4e8;
+  border-radius: 20px;
+  color: #ff4a60;
+  font-size: 17px;
+}
+/* ------------------------------
+    Courses Section Style End
+--------------------------------*/
+
+@media only screen and (max-width: 576px) and (min-width: 767px) {
+  header {
+    margin: 10px 30px;
+    padding: 10px;
+  }
+  #main-top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-top-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .player-info img.player-img {
+    width: 100px;
+  }
+
+  .latest-courses {
+    margin: 10px 30px;
+    padding: 10px;
+  }
+  .latest-courses .social-icon {
+    font-size: 12px;
+  }
+
+  .course-duration {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+}
+
+@media only screen  and (min-width: 768px) and (max-width: 992px) {
+  header {
+    margin: 10px 60px;
+    padding: 15px;
+  }
+
+  #main-top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-top-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .latest-courses {
+    margin: 10px 60px;
+    padding: 15px;
+  }
+
+  .course-duration {
+    font-size: 15px;
+    padding: 3px 10px;
+  }
+}
